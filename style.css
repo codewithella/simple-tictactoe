@@ -1,0 +1,61 @@
+
+
+body{
+    background-image: linear-gradient(to bottom right, rgba(79,51,176,1), rgba(210,53,165));
+    width: 100vw;
+    display: grid;
+    height: 100vh;
+    place-content: center;
+
+}
+
+h1 {
+    color: #e990da;
+    font-size: 45;
+}
+
+
+/* 3*3 grid */
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    width: 50px;
+    height: 52px;
+    margin: auto;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+/* reset button */
+
+.reset {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    color: white; /* change to white */
+    font-size: 20px;
+    cursor: pointer;
+}
+/* player turn space */
+
+.print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* main container */
+
+.main {
+    text-align: center;
+}
+/* game instruction text */
+
+.ins{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: dodgerblue;
+    font-size: 17px;
+}
